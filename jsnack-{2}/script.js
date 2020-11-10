@@ -27,4 +27,6 @@ bici.sort(function(a, b) {
 
 console.log(bici[0].peso)
 
-$('.bici-leggera').append(" <b>Peso</b>: " + bici[0].peso + "<br>")
+$('.bici-leggera').append(" <b>Nome</b>: " + bici[0].marca + "<br>")
+$('.bici-leggera').append(" <b>Tipo</b>: " + bici[0].tipo + "<br>")
+$('.bici-leggera').append(" <b>Peso</b>: " + bici[0].peso + " kg<br>")
